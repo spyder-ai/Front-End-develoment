@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Data Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>📊 Sales Dashboard 2025</h1>
+    <button id="toggleTheme">Toggle Dark Mode</button>
+  </header>
+
+  <section class="filters">
+    <label for="region">Region:</label>
+    <select id="region">
+      <option value="all">All</option>
+      <option value="north">North</option>
+      <option value="south">South</option>
+      <option value="east">East</option>
+      <option value="west">West</option>
+    </select>
+  </section>
+
+
+  <main>
+    <section class="insights">
+     <h2>📌 Insights</h2>
+     <p id="insight-text">Select a region to see insights...</p>
+    </section>
+    <div class="chart-card">
+        <canvas id="lineChart"></canvas>
+    </div>
+    <div class="chart-card">
+        <canvas id="barChart"></canvas>
+    </div>
+    <div class="chart-card">
+        <canvas id="pieChart"></canvas>
+    </div>
+</main>
+<div id="story-caption"></div>
+
+  <footer>
+    <button id="playStory">▶ Play Story</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
