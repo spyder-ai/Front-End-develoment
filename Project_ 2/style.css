@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(164, 136, 190);
+}
+#mysubmit{
+    font-size: 1em;
+}
+form{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+}
+
+#myinput{
+    width: 60%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(177, 22, 22);
+}
+
+#converted{
+    font-size: 1.75em;
+    font-weight: bold;
+}
